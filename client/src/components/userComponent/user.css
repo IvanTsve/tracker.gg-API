@@ -1,0 +1,112 @@
+.container {
+    background-color: #273c75;
+    display: flex;
+
+}
+
+.user-side {
+    color: #f5f6fa;
+    padding-left: 40px;
+    width: 45%;
+
+}
+
+.user-side .main-cta {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #40739e;
+    background-color: #273c75;
+    font-size: 2rem;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.player-container {
+}
+
+.user-photo {
+
+}
+
+.user-side h1 {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding: 10px 20px;
+    border: 2px solid #40739e;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.user-side h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #718093;
+    opacity: 0.3;
+}
+
+.hits {
+    list-style: none outside;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+.hits li {
+    margin-bottom: 10px;
+}
+
+.hits span {
+    margin-right: 10px;
+}
+
+.bodyPart {
+    color: #7f8fa6;
+}
+
+.hits-percent,
+.hits-number {
+    color: #f5f6fa;
+}
+
+.weapons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weapon-container {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.weapon-container button {
+    color: #f5f6fa;
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid #f5f6fa;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.weapon-container button:hover {
+    color: #7f8fa6;
+    background: #f5f6fa;
+}
+
+.weapon-container .weapon h4 {
+    text-align: center;
+}

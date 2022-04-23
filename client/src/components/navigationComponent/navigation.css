@@ -1,0 +1,19 @@
+.site-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #4a69bd;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav ul li {
+    list-style: none outside;
+    margin-right: 10px;
+}
